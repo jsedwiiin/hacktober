@@ -15,12 +15,12 @@ void main()
     if(a[i]<b[j])
     {
       c[i+j]=a[i];
-      i=i+1;
+      i=i++;
     }
     else
     {
       c[i+j]=b[j];
-      j=j+1;
+      j=j++;
     }
   }
   for(;i<ano;i++)
