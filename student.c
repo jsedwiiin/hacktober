@@ -10,7 +10,12 @@ void main()
   {
     long regno;
     char name[26];
-    int m1,m2,m3,m4,m5,m6;
+    int m1;
+    int m2;
+    int m3;
+    int m4;
+    int m5;
+    int m6;
   }student;
   student s;
   long r;
