@@ -19,7 +19,7 @@ void main()
   }student;
   student s;
   long r;
-  printf("Enter register number.:");
+  printf("Enter register no.:");
   scanf("%ld",&r);
   while(!feof(ptr))
   {
