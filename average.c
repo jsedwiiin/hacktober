@@ -8,11 +8,17 @@ void main(int n,char *a[])
   else
   {
 
+
     for(int i=1;i<n;i=i+1)
       avg+=atoi(a[i]);
 
     for(int i=1;i<n;i++)
       avg= avg + atoi(a[i]);
+
+
+    for(int i=1;i<n;i++){
+      avg= avg + atoi(a[i]);
+    }
 
     avg=avg/(n-1);
     printf("The average is %f\n",avg);
