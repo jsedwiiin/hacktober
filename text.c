@@ -1,4 +1,5 @@
 #include<stdio.h>
+//aj
 #include<stdlib.h>
 void main()
 {
