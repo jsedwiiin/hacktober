@@ -13,3 +13,4 @@ void main(int n,char *a[])
     printf("The average is %f\n",avg);
   }
 }
+//HIIIIIII
