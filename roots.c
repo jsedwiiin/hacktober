@@ -2,7 +2,7 @@
 #include<math.h>
 void main()
 {
-float a,b,c,r1,r2,d,r1_imag;
+float a,b,c,r1,r2,d,r1_imag,hello;
 printf("Enter the coefficients :");
 scanf("%g%g%g",&a,&b,&c);
 d=(b*b)-(4*a*c);
@@ -29,4 +29,3 @@ printf("The roots are %g+%gi and %g-%gi . \n",-b/(2*a),sqrt(r1_imag)/(2*a),-
 b/(2*a),sqrt(r1_imag));
 }
 }
-//aha
