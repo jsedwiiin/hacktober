@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-  int a[25],b[25],c[50],ano,bno,i,j;
+  int a[25],b[25],c[51],ano,bno,i,j;
   printf("Enter the number of elements in the first array:");
   scanf("%d",&ano);
   for(i=0;i<ano;i++)
