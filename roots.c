@@ -2,7 +2,7 @@
 #include<math.h>
 void main()
 {
-float a,b,c,r1,r2,d,r1_imag;
+float a,b,c,r1,r2,d,r1_imag,hi;
 printf("Enter the coefficients :");
 scanf("%g%g%g",&a,&b,&c);
 d=(b*b)-(4*a*c);
