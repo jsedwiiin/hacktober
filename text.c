@@ -38,3 +38,4 @@ void main()
       printf("%c:%d\n",i+'0',digit[i]);
   }
 }
+//completed
