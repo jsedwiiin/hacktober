@@ -4,7 +4,7 @@
 void main()
 {
   char c,loc[100];
-  printf("Enter the file location:");
+  printf("Enter the file :");
   gets(loc);
   int lower[26]={0},upper[26]={0},digit[10]={0};
   FILE *ptr=fopen(loc,"r");
